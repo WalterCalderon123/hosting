@@ -1,0 +1,167 @@
+.row, .carousel{
+    margin: 25px;
+    
+}
+body {
+    background-image: url("../imagenes/layered-peaks-haikei.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+  }
+
+
+
+ .col_demostraciones{
+     background-size: cover;
+ }
+
+.in{
+    color: rgb(250, 250, 250);
+}
+
+.es{
+   color: rgb(255, 255, 255);
+}
+
+.ola2{
+    color: blanchedalmond;
+}
+
+#CardColor{
+    background-color: #68aae0;
+}
+
+#CardColor2{
+    background-color: #68aae0;
+}
+.check{
+position: relative;
+width: 50px;
+}
+
+.check::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background: black;
+    border-radius: 25px;   
+
+}
+
+.check::after{
+    content:"" ;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 25px;
+    transition: 2px solid #333;
+    box-sizing: border-box;
+
+}
+
+.check:checked::after{
+left: 25px;
+border: 2px solid rgb(31, 144, 169);
+}
+
+.check:checked::before{
+    background: rgb(31, 144, 169);
+}
+
+.accordion-button{
+    background-color:#7ebfcf;
+    color: white;
+    font-size: 20px;
+    transition: all 0.35s linear 0s;
+    -webkit-transition: all 0.35s linear 0s;
+    -moz-transition: all 0.35s linear 0s;
+    -o-transition: all 0.35s linear 0s;
+}
+.accordion-button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 38, 250);
+}
+
+.accordion-item{
+    background-color: #4a7fb1;
+    color: white;
+}
+
+.offcanvas-body{
+    background-image: url("../imagenes/blurry-gradient-haikei.svg");
+    background-size: cover;
+}
+
+.card{
+
+    font-size: 20px;
+    transition: all 0.2 linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+  }
+
+  .titulo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff ;
+}
+
+
+
+  .card:hover{
+  
+      -webkit-transform: scale(1.1);
+  
+  }
+  @media screen and (max-width: 576px) {
+    body{
+        width: unset;
+    }
+    .logo{
+        width: 3px;
+        
+    }
+    
+
+}
+.btn{
+    font-size: 21px;
+}
+
+@media screen and (max-width: 390px) {
+  body{
+      width: unset;
+  }
+  .logo{
+      width: 353px;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+    
+    .logo{
+        width: 400px;
+    }
+  
+  
+ 
+    
+  }
+  @media screen and (min-width: 1280px) {
+
+    .logo{
+        width: 500px;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+
+    .logo{
+        width: 600px;
+    }
+  }
